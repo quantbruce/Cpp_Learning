@@ -31,7 +31,7 @@ bool calc_elements(vector<int> &vec, int pos)
         return false;
     }
 
-    for(int ix=vec.size()+1; ix<=pos; ++ix)
+    for(int ix=vec.size()+1; ix<=pos; ++ix) # 这个ix=vec.size()+1再理解下。
     {
         vec.push_back(ix*(3*ix-1)/2);
     }
